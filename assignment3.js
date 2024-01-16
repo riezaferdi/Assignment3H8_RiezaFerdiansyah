@@ -35,7 +35,7 @@ console.log(threeStepAB('bacon and meat'));
 
 console.log("------------------------------------");
 //exercises 3
-//return many array of 2 number that sum to from parameter
+//return many array of 2 number that sum to parameter
 function sumArray(arr, int) {
     var result = [];
     for (let i = 0; i < arr.length; i++) {
