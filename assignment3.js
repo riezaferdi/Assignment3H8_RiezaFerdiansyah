@@ -20,7 +20,7 @@ console.log("------------------------------------");
 //exercises 2
 //check if an string contain letter a and b which have 3 characters in between
 function threeStepAB(text) {
-    if (/[abAB].\s*.\s*[abAB]/.test(text)===true) {
+    if (/[ab]...[ab]/.test(text)===true) {
         return true;
     }else {
         return false;
